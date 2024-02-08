@@ -1,95 +1,103 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Compara dois valores quanto ao seu valor e tipo",
-        "Compara dois valores quanto ao seu valor",
-        "Atribui um valor a uma variável",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um tipo de variável",
-        "Um bloco de código reutilizável",
-        "Uma operação matemática",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'addEventListener()'?",
-      respostas: [
-        "Remover um evento de um elemento",
-        "Adicionar um evento a um elemento",
-        "Modificar um estilo de um elemento",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é uma variável em JavaScript?",
-      respostas: [
-        "Um valor fixo",
-        "Um contêiner para armazenar dados",
-        "Uma função",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é uma condição em JavaScript?",
-      respostas: [
-        "Uma operação matemática",
-        "Uma expressão que retorna true ou false",
-        "Um tipo de variável",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
-      respostas: [
-        "var myVar = 10;",
-        "let myVar = 10;",
-        "const myVar = 10;",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM (Document Object Model) em JavaScript?",
-      respostas: [
-        "Uma biblioteca JavaScript",
-        "Um modelo de objetos que representa a estrutura de um documento HTML",
-        "Um método de criptografia",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é um loop em JavaScript?",
-      respostas: [
-        "Uma condição que executa um bloco de código uma única vez",
-        "Um bloco de código que é executado várias vezes até que uma condição seja atendida",
-        "Um tipo de variável",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'querySelector()'?",
-      respostas: [
-        "Selecionar um elemento HTML pelo seu ID",
-        "Selecionar um elemento HTML pelo seu nome",
-        "Selecionar um elemento HTML pelo seu seletor CSS",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma string em JavaScript?",
-      respostas: [
-        "Um número",
-        "Um tipo de dado que representa texto",
-        "Uma função",
-      ],
-      correta: 1
-    }
-  ];
+  {
+    pergunta: "Qual é o jogo mais popular nos e-sports?",
+    respostas: [
+      "FIFA",
+      "League of Legends",
+      "Minecraft",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o país que mais se destaca nos e-sports?",
+    respostas: [
+      "Estados Unidos",
+      "Coreia do Sul",
+      "Brasil",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que significa 'GG' no contexto dos e-sports?",
+    respostas: [
+      "Good Game",
+      "Go Green",
+      "Great Game",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a maior competição de Dota 2?",
+    respostas: [
+      "The International",
+      "World Cyber Games",
+      "League of Legends World Championship",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o principal gênero de jogo nos e-sports?",
+    respostas: [
+      "Battle Royale",
+      "FPS (First Person Shooter)",
+      "MOBA (Multiplayer Online Battle Arena)",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quem é conhecido como 'The GOAT' (Greatest of All Time) nos e-sports?",
+    respostas: [
+      "Ninja",
+      "faker",
+      "Daigo Umehara",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a plataforma de streaming mais popular para transmissão de jogos?",
+    respostas: [
+      "YouTube",
+      "Twitch",
+      "Facebook Gaming",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o jogo de estratégia em tempo real mais jogado nos e-sports?",
+    respostas: [
+      "StarCraft II",
+      "Age of Empires II",
+      "Command & Conquer",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "O que significa 'AFK' nos e-sports?",
+    respostas: [
+      "Away from Keyboard",
+      "Alliance of Fantastic Kings",
+      "Always Fighting Kings",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o jogo de tiro em primeira pessoa mais popular nos e-sports?",
+    respostas: [
+      "Call of Duty",
+      "Counter-Strike: Global Offensive",
+      "Valorant",
+    ],
+    correta: 1
+  },
+];
+
+// Exemplo de como acessar uma pergunta:
+console.log(perguntas[0].pergunta);
+// Saída: Qual é o jogo mais popular nos e-sports?
+
+
+
+
 
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector ('template')
